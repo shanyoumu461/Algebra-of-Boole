@@ -1,4 +1,4 @@
-from LogicDeterime import *
+from LogicJudge import *
 
 ## 符号类，可代表集合/命题前提（结论）等 包含p/~p
 class SymBol():
