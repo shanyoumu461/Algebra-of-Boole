@@ -131,7 +131,7 @@ class LogicalExperssion():
                 string += " & "
         string += ")"
         return string
-    def LogicDetermine(self):
+    def LogicJudge(self):
         string = self.getlogicExp()
         # print("输入表达式转成逻辑表达式为: ", string)
         logstr = Logic2algbra(string)
@@ -165,7 +165,7 @@ def main():
     print("The original statement is: ", LogicExp)
     print("Convert the original statement into a logical expression:",LogicExp.getlogicExp())
     print("The corresponding relationship between original language and logical expression symbols is:", LogicExp.GetSymbolTrans())
-    print("The judgment result is:", LogicExp.LogicDetermine())
+    print("The judgment result is:", LogicExp.LogicJudge())
 
 if __name__ == '__main__':
     main()
