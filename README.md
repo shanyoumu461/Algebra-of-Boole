@@ -13,7 +13,7 @@ You can use it in the following ways:
 python UI.py
 ```
 
-![1704180996771](image/README/1704180996771.png)
+![UI1](picture\UI1.png)
 
  `BaseClass.py` is for object-oriented
 
