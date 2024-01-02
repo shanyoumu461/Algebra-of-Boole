@@ -181,7 +181,7 @@ def Logic2algbra(string : str) -> str:
     return stringtemp
 
 
-def LogicDetermine():
+def LogicJudge():
     string = input("请输入仅包含&、|、~、()、-->的逻辑表达式: ")
     print("输入的逻辑表达式为: ", string)
     logstr = Logic2algbra(string)
@@ -191,4 +191,4 @@ def LogicDetermine():
     print("输入的表达式的结果为(1为正确,其他为错误): ", res)
 
 if __name__ == '__main__':
-    LogicDetermine()
+    LogicJudge()

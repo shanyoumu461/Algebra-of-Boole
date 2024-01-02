@@ -162,10 +162,10 @@ def main():
     LogicExp.addcondition(condition2)
     LogicExp.addconclusion(conculusion)
 
-    print("原始语句为：", LogicExp)
-    print("将原始语句转成逻辑表达式为：",LogicExp.getlogicExp())
-    print("原始语言与逻辑表达式符号对应关系为: ", LogicExp.GetSymbolTrans())
-    print("判断结果为：", LogicExp.LogicDetermine())
+    print("The original statement is: ", LogicExp)
+    print("Convert the original statement into a logical expression:",LogicExp.getlogicExp())
+    print("The corresponding relationship between original language and logical expression symbols is:", LogicExp.GetSymbolTrans())
+    print("The judgment result is:", LogicExp.LogicDetermine())
 
 if __name__ == '__main__':
     main()

@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk  
   
 from src.LogicJudge import *  
-# 假设这是你的自定义函数  
+
 
   
 def on_button_click():  
