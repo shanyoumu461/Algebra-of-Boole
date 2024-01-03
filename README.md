@@ -1,6 +1,8 @@
 Algebra of Boole
 
-You can use this library to make simple logical judgments：Use logical expressions containing specific symbols"-->、|、&、~"：
+All the work referenced to [Boole Reduction: A challenge for programmers | MathFoundations 269 | N J Wildberger (youtube.com)](https://www.youtube.com/watch?v=AJr44JgbKho&list=PLIljB45xT85CnIGIWb7tH1F_S2PyOC8rb&index=19)，The relevant code is in [shanyoumu461/Algebra-of-Boole: Algebra Of Boole (github.com)](https://github.com/shanyoumu461/Algebra-of-Boole/tree/main).
+
+`LogicJudge.py` is used to judge logical expressions. You can use this library to make simple logical judgments. The logical expressions containing specific symbols"-->、|、&、~"：
 
 + "-->": reasoning,
 + "|": or,
@@ -14,6 +16,8 @@ python UI.py
 ```
 
 ![UI1](picture\UI1.png)
+
+
 
  `BaseClass.py` is for object-oriented
 
