@@ -39,4 +39,13 @@ The corresponding relationship between original language and logical expression 
 The judgment result is: True
 ```
 
-if you 
+If you find our work useful to your research, please consider citing:
+
+```shell
+@Online{Algebra of Boole,
+  accessed = {2025-05-30},
+  author   = {shanyoumu},
+  title    = {Algebra of Boole},
+  url      = {https://github.com/shanyoumu461/Algebra-of-Boole},
+}
+```
