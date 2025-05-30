@@ -17,8 +17,6 @@ python UI.py
 
 ![UI1](picture\UI1.png)
 
-
-
  `BaseClass.py` is for object-oriented
 
 + `SymBol/DesymBol: ` a class or the negation of a class, representing `p or ~p`；
@@ -40,3 +38,5 @@ Convert the original statement into a logical expression: ((a-->b) & (c-->a))-->
 The corresponding relationship between original language and logical expression symbols is: {'People': 'a', 'Die': 'b', 'Socrates': 'c'}
 The judgment result is: True
 ```
+
+if you 
