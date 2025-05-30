@@ -1,7 +1,8 @@
 #################
 ######### 这个文件为将boolean 表达式化简成多项式
 import sympy as sp
-
+from sympy.abc import _clash
+set(_clash)
 ## 将单个的表达式化简，例如（A**2*B**3 -->AB）
 def reducesymbol(string: str):
     idx = 0
@@ -33,12 +34,15 @@ def reducesymbol(string: str):
 
 ################# 将sympy表达式化简
 def BooleReduce(string : str) -> str:
-    varset = set()
-    for s in string:
-        if(s != ' ' and s != '+' and s != '*' and s != '(' and s != ')'):
-            varset.add(s)
-    sp.var(varset)
-    parts = str(sp.expand(string)).split("+")
+    # varset = set()
+    # for s in string:
+    #     if(s != ' ' and s != '+' and s != '*' and s != '(' and s != ')'):
+    #         varset.add(s)
+    # sp.var(varset)
+    # parts = str(sp.expand(string)).split("+")
+    expr = sp.sympify(string, _clash)
+    parts = str(sp.expand(expr)).split("+")
+    
     res = set()    ####### 保存最后结果
     for partstr in parts:
         tempstr = reducesymbol(partstr)
@@ -183,10 +187,12 @@ def Logic2algbra(string : str) -> str:
 
 def LogicJudge():
     string = input("请输入仅包含&、|、~、()、-->的逻辑表达式: ")
+    # string = "(~M)-->(~S)"
     print("输入的逻辑表达式为: ", string)
     logstr = Logic2algbra(string)
     print("输入的逻辑表达式转成布尔表达式为: ",logstr)
     symstr = Boolstr2symstr(logstr)
+    print("输入sympy表达式展开为: ", symstr)
     res = BooleReduce(symstr)
     print("输入的表达式的结果为(1为正确,其他为错误): ", res)
 

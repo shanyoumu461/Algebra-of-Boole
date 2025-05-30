@@ -1,5 +1,2 @@
-*.PNG
-*.ipynb
-*.txt
 __pycache__
 Note.md

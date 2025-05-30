@@ -1,0 +1,56 @@
+n = 2
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 0.004639148712158203 s
+n = 3
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 0.008544445037841797 s
+n = 4
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0009984970092773438 s
+BooleReduce takes 0.003999233245849609 s
+n = 5
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0010008811950683594 s
+BooleReduce takes 0.009548425674438477 s
+n = 6
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 0.024003982543945312 s
+n = 7
+Logic2algbra takes 0.0009999275207519531 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 0.06300020217895508 s
+n = 8
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 0.17299962043762207 s
+n = 9
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 0.5157332420349121 s
+n = 10
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 6.692025423049927 s
+n = 11
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0010001659393310547 s
+BooleReduce takes 18.93506145477295 s
+n = 12
+Logic2algbra takes 0.0005035400390625 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 52.71284484863281 s
+n = 13
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 146.3405303955078 s
+n = 14
+Logic2algbra takes 0.00099945068359375 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 405.7851927280426 s
+n = 15
+Logic2algbra takes 0.0 s
+Boolstr2symstr takes 0.0 s
+BooleReduce takes 1115.215053319931 s
